@@ -1,0 +1,11 @@
+Session 01: (Very Basic Topics) (with simplest explanations)
+-------------------------------
+- How Computers Work: CPU, RAM, GPU
+- Operating Systems
+- What is Programming
+- File Formats
+- Working Environment: (Local, Web, ...)
+- Create Accounts: Gmail, GitHub, ...
+- Software we will use: Chrome, VSCode, git, google sheets, ...
+- Terminals & Commands: Bash/Shell Scripting (cd, ls, touch, mkdir, chmod, ...)
+- Environment Variables
