@@ -1,0 +1,42 @@
+Big Endian / Little Endian
+0x54F9
+
+7001 7002 7003 7004
+0101 0100 1111 1001
+
+7004 7003 7002 7001
+0101 0100 1111 1001
+
+----------------------
+Algorithm and Flowchart
+
+Algorithm:
+
+Problem: ?
+Solution: Step by Step Instructions
+
+Input > Compute > Output
+
+Problem: Average of 3 Integer?
+
+step1: out: "Please enter 3 numbers: "
+step2: in: a, b, c
+step3: ave = (a+b+c)/3
+step4: out: "Ave = " ave
+step5: finish
+
+Flowchart: Graphical Algorithm
+
+---
+Problem: Average of N numbers if they are positive
+
+step1: out: "How many numbers do you want to get Average from?"
+step2: in: N
+step3: while N > 0: "Please enter a number:"
+step4: in: num
+step5: check num >= 0
+step6: if yes: sum = sum + num; N = N -1 go to step3
+       if no: step3
+step7: ave = sum / N
+step8: out: "Average is " ave
+step9: finish
