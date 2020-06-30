@@ -1,0 +1,7 @@
+C++ File formats :.h.cpp(.hpp, .c, ..)
+
+Compiler, Linker: g++ (Linux, Mac), cl (Windows)
+
+Hello World!
+
+Entry Point
