@@ -1,0 +1,76 @@
+Git:
+- setup git on your system:
+1. install git
+2. setup username and email
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+3. add ssh key
+$ ssh-keygen
+
+4. copy rsa to your github settings
+
+- How to create Repository
+- create Repository
+- copy path
+$ cd dev
+$ git clone git@github.com:madoodia/test.git
+$ code test
+
+- in vscode create or copy your files
+0. pull
+1. add      (git add all)
+2. commit   (git commit -m "this is first commit")
+3. push     (git push origin master)
+
+
+----------------------------
+Work with VSCode faster
+
+----------------------------
+Compile C++ code:
+
+$ cd path
+Compile:
+$ g++ main.cpp -o main.out
+Run:
+$ ./main.out
+
+----
+C++ Code review:
+#include: add another header file
+iostream: input/output stream
+// Entry Point: comment
+int: return type (integer)
+main: entry point
+std: standard
+cout: console output
+:: scope
+<< put into output stream
+"Hello World!\n": string
+"\n": escape character
+return 0; successful
+{}: block
+
+----------------------
+setup vscode for building c++ project
+- compile: ctrl+alt+b
+- run: ctrl+alt+r
+---
+- add shortcuts: keybindings.json
+{
+    {
+        "key": "ctrl+alt+r",
+        "command": "workbench.action.tasks.runTask",
+        "args": "run"
+    },
+    {
+        "key": "ctrl+alt+b",
+        "command": "workbench.action.tasks.runTask",
+        "args": "build"
+    },
+}
+
+- add task: task.json
+study .vscode/task.json
+- create build.sh
+study .buildSystem/linux/build.sh
