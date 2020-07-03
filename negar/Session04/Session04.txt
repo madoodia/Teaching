@@ -5,3 +5,10 @@ Compiler, Linker: g++ (Linux, Mac), cl (Windows)
 Hello World!
 
 Entry Point
+
+Manual Compiling
+
+-----
+
+IDE: Interface Development Environment
+Visual Studio (Windows), XCode(Mac OSX), Eclipse
