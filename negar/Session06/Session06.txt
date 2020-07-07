@@ -1,0 +1,46 @@
+
+- Compilers:
+    - g++
+    - msvc
+    - llvm
+    - clang
+    - borland c++
+    - intel
+    - apple
+-----------------
+ISO C++ Standard:
+C++98
+C++0x
+C++11
+C++14
+C++17
+C++20
+-----------------
+Variables: (data type, delaration, initialize(value))
+Variable is a name that represent a place in memory.
+dataType variableName = value;
+strictly type checking
+
+-----------------
+Data Types:
+void
+bool (boolean) [1 byte] (00000000 or 00000001)
+    (true or false) (0 or 1) (on or off)
+char (character) [1 byte] (00000000-11111111)
+    ASCII (ASCII Table)
+short (short) [2 byte]
+int (integer) [4 byte]
+long int (long integer) [8 byte]
+float (floating point) [4 byte]
+double (floating point) [8 byte]
+-----------------
+signed or unsigned
+unsigned char > 0 to 255 > 00000000 to 11111111
+signed char > -128 to 127
+
+-----------------
+Research: Overflow
+Research: sign bit (negative and positive numbers)
+Research: single precission and double precession
+Research: debugging
+-----------------
