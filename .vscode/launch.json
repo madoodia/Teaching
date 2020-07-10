@@ -27,7 +27,17 @@
         ],
         "miDebuggerPath": "/opt/rh/devtoolset-9/root/bin/gdb"
       },
-      "osx": {},
+      "osx": {
+        "MIMode": "lldb",
+        "setupCommands": [
+          {
+            "description": "Enable pretty-printing for lldb",
+            "text": "-enable-pretty-printing",
+            "ignoreFailures": true
+          }
+        ],
+        "miDebuggerPath": "lldb"
+      },
     }
   ]
 }
