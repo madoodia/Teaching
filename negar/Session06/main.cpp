@@ -9,7 +9,10 @@ int main()
 
   // character
   char ch = 'N';
+  char ch2 = 105;
   std::cout << "char: " << sizeof(char) << std::endl;
+  std::cout << "ch: " << ch << std::endl;
+  std::cout << "ch: " << ch2 << std::endl;
 
   // short
   short sh = 15;
