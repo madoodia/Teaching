@@ -23,6 +23,29 @@
                 "kind": "build",
                 "isDefault": true
             },
+        },
+        {
+            "type": "shell",
+            "label": "build_debug",
+            "windows": {
+                "command": "${workspaceFolder}/.buildSystem/windows/build_debug.bat",
+            },
+            "linux": {
+                "command": "${workspaceFolder}/.buildSystem/linux/build_debug.sh",
+            },
+            "osx": {
+                "command": "${workspaceFolder}/.buildSystem/osx/build_debug.sh",
+            },
+            "args": [
+                "${workspaceFolder}",
+                "${relativeFileDirname}",
+                "${fileBasenameNoExtension}"
+            ],
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
         }
     ]
 }
