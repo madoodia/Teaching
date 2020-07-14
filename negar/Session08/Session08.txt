@@ -1,0 +1,7 @@
+variables continue:
+- array of data types play with like samples
+
+RnD: escape characters: \n \t \b ... 
+
+- Numbers Suffix: f F L U
+RnD: C++ keywords
