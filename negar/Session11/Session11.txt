@@ -1,0 +1,12 @@
+Functions
+- declaration
+- implementation
+- call by value
+- recursive (later)
+- overloading functions
+
+Coding Style:
+- camelCase
+- snake_case
+
+
