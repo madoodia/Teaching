@@ -1,0 +1,7 @@
+Functions
+- functions in other headerfiles
+    - header guards
+- recursive (later)
+
+Arrays:
+
