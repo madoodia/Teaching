@@ -1,0 +1,54 @@
+Struct
+- Data Structure
+
+struct NAME 
+{
+    membertype1 membername1;
+    membertype2 membername2;
+    membertype3 membername3;
+    ...
+};
+
+NAME varName;
+
+- array of structs
+- nested structs
+----------------
+Pointer
+
+int x = 10;
+int *ptr = &x;
+*ptr == 10
+
+int **sPtr = &ptr;
+**sPtr == ?
+
+address     Value
+-------     -----
+1000        10          x
+1001
+1002
+1003
+1004
+1005
+1006
+1007        1000        ptr
+1008
+1009
+100a        1007        sPtr
+
+
+--------------------------
+address     
+-------     -----
+1000        ptr (int)   ptr (char*)
+1001                    ptr+1
+1002                    ptr+2
+1003
+1004        ptr+1
+1005
+1006
+1007        
+1008        ptr+2
+1009
+100a        
